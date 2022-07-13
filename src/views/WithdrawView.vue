@@ -40,6 +40,7 @@
 </script>
 
 <template>
+<div>
             <!-- Begin page -->
         <div id="layout-wrapper">
 
@@ -778,6 +779,7 @@
                     </div>
                 </div>
             </div>
+        </div>
         </div>
 </template>
 

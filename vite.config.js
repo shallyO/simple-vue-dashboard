@@ -11,6 +11,6 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  base: 'simple-vue-dashboard/',
+  base: 'simple-vue-dashboard/dist/', 
 })
 
