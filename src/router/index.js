@@ -11,12 +11,14 @@ const router = createRouter({
     {
       path: '/',
       name: 'login',
-      component: LoginView
+      component: LoginView,
+      meta: { transition: 'slide-right' },
     },
     {
       path: '/dashboard',
       name: 'dashboard',
-      component: DashboardView
+      component: DashboardView,
+      meta: { transition: 'slide-right' },
     },
     {
       path: '/deposit',
@@ -27,12 +29,14 @@ const router = createRouter({
     {
       path: '/withdraw',
       name: 'withdraw',
-      component: WithdrawView
+      component: WithdrawView,
+      meta: { transition: 'slide-right' },
     },
     {
       path: '/transfer',
       name: 'transfer',
-      component: TransferView
+      component: TransferView,
+      meta: { transition: 'slide-right' },
     }
   ]
 })
